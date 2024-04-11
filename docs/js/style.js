@@ -65,3 +65,24 @@ $('.cate h2').on('click', function(e) {
   mainSwiper[index].slideTo(0);
 });
 
+
+// fade in #back-top
+$(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 200) {
+      $('#back-top').fadeIn();
+    } else {
+      $('#back-top').fadeOut();
+
+    }
+  });
+
+
+  // scroll body to 0px on click
+  $('a#back-top').click(function () {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 1000);
+    return true;
+  });
+});

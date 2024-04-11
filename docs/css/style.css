@@ -11,7 +11,7 @@
 #content {position:relative; padding-top:180px; padding-bottom:10px; background:var(--background-body);}
 #content section {margin-bottom:140px;}
 #content section .secTitle {height:70px; position:relative; font-family:'Exercise Regular'; font-size:40px; letter-spacing:-2.5px; text-align:center; margin-bottom:40px;}
-#content section .secTitle:before {content:''; width:70px; height:70px; display:block; background:url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/main_titleStar01.png') top center/cover no-repeat; position:absolute; top:-80%; left:50%; transform:translateX(-50%);}
+#content section .secTitle:before {content:''; width:70px; height:70px; display:block; background:url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/main_titleStar01.png') top center/cover no-repeat; position:absolute; top:-80%; left:50%; transform:translateX(-50%);}
 #content section .secTitle span {font-size:0.7em; display: block; font-family: 'Pretendard-Regular';}
 #content section a.thumb {transition:All .2s ease; -webkit-transition:All .2s ease; -moz-transition:All .2s ease; -o-transition:All .2s ease;}
 
@@ -45,7 +45,7 @@
 #content section.type3 .secBox a.thumb .img img {width:100%; display:block; opacity:0.4;}
 #content section.type3 .secBox a.thumb .txt {position:absolute; top:0; left:0; width:100%; height:100%; padding:40px; display:flex; flex-flow:column; justify-content:flex-end; align-items:stretch; font-size:20px; line-height:30px; color:#fff;}
 #content section.type3 .secBox a.thumb .txt .title {position:relative; width:fit-content; overflow:hidden; font-family:'SBAggroM'; font-size:1.3em; line-height:1.2em;}
-#content section.type3 .secBox a.thumb .txt .title:before {content:''; position:relative; top:5px; width:30px; height:30px; display:inline-block; margin-right:10px; background:url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type3_default.png') center center/cover no-repeat; transition:All .3s ease; -webkit-transition:All .3s ease; -moz-transition:All .3s ease; -o-transition:All .3s ease;}
+#content section.type3 .secBox a.thumb .txt .title:before {content:''; position:relative; top:5px; width:30px; height:30px; display:inline-block; margin-right:10px; background:url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/type3_default.png') center center/cover no-repeat; transition:All .3s ease; -webkit-transition:All .3s ease; -moz-transition:All .3s ease; -o-transition:All .3s ease;}
 #content section.type3 .secBox a.thumb .txt .title:after {content:''; position:absolute; bottom:0; left:40px; width:20%; height:2px; opacity:0; display:block; margin-right:40px; background:#fff; transition:All .8s ease; -webkit-transition:All .8s ease; -moz-transition:All .8s ease; -o-transition:All .8s ease;}
 #content section.type3 .secBox a.thumb .txt .title.second {margin-top:5px; padding-left:40px;}
 #content section.type3 .secBox a.thumb .txt .title.second:before {display:none;}
@@ -63,7 +63,7 @@
 @media (hover:hover) {
 	#content section.type1 .secBox a.thumb:hover {background:var(--background-type1); color:var(--color_Dp);}
 	#content section.type1 .secBox a.thumb:hover .img:before {font-size:80px;}
-    #content section.type3 .secBox a.thumb:hover .txt .title:before {background:url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type3_hover.png') center center/cover no-repeat;}
+    #content section.type3 .secBox a.thumb:hover .txt .title:before {background:url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/type3_hover.png') center center/cover no-repeat;}
 	#content section.type3 .secBox a.thumb:hover .txt .title:after {width:100%; opacity:1;}
 }
 @media only screen and (max-width: 2000px) {

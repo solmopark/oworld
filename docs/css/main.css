@@ -384,13 +384,13 @@ body {
 #popuparea .swiper .swiper-pagination{bottom:0;}
 #popuparea .swiper .swiper-wrapper .swiper-slide{height: 30vh; position: relative; transition: all 3s ease; width: 100vw;}
 #popuparea .swiper .swiper-wrapper .swiper-slide.pop01 {
-  background:url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type2_img01.png') center bottom /cover no-repeat; 
+  background:url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/type2_img01.png') center bottom /cover no-repeat; 
 }
 #popuparea .swiper .swiper-wrapper .swiper-slide.pop02 {
-  background:url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type2_img02.png') center bottom /cover no-repeat; 
+  background:url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/type2_img02.png') center bottom /cover no-repeat; 
 }
 #popuparea .swiper .swiper-wrapper .swiper-slide.pop03 {
-  background:url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type2_img03.png') center bottom /cover no-repeat; 
+  background:url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/type2_img03.png') center bottom /cover no-repeat; 
 }
 #popuparea  ..swiper-pagination-clickable .swiper-pagination-bullet.active{
   background:var(--color_Dp);
@@ -489,13 +489,13 @@ body {
   /* pop */
   #popuparea .swiper .swiper-wrapper .swiper-slide{height: 30vh;}
   #popuparea .swiper .swiper-wrapper .swiper-slide.pop01 {
-    background:url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type2_img01_1.png') center bottom /cover no-repeat; 
+    background:url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/type2_img01_1.png') center bottom /cover no-repeat; 
   }
   #popuparea .swiper .swiper-wrapper .swiper-slide.pop02 {
-    background:url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type2_img02_1.png') center bottom /cover no-repeat; 
+    background:url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/type2_img02_1.png') center bottom /cover no-repeat; 
   }
   #popuparea .swiper .swiper-wrapper .swiper-slide.pop03 {
-    background:url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type2_img03_1.png') center bottom /cover no-repeat; 
+    background:url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/type2_img03_1.png') center bottom /cover no-repeat; 
   }
 }
 @media only screen and (max-width: 800px){
@@ -506,11 +506,11 @@ body {
   #mainVisual .swiper .swiper-wrapper .swiper-slide {padding:0;}
   #mainVisual .swiper .swiper-wrapper .swiper-slide .swiper_flex{height: 66vh; position: relative; transition: all 3s ease;}
   #mainVisual .swiper .swiper-wrapper .swiper-slide .swiper_flex.swiper_flex01 {
-    background:url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_visual01.jpg') center bottom /cover no-repeat; }
+    background:url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/oworld_visual01.jpg') center bottom /cover no-repeat; }
   #mainVisual .swiper .swiper-wrapper .swiper-slide .swiper_flex.swiper_flex02 {
-    background:url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_visual02_.jpg') center bottom /cover no-repeat;}
+    background:url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/oworld_visual02_.jpg') center bottom /cover no-repeat;}
   #mainVisual .swiper .swiper-wrapper .swiper-slide .swiper_flex.swiper_flex03 {
-    background:url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_visual03_.jpg') center bottom /cover no-repeat;}
+    background:url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/oworld_visual03_.jpg') center bottom /cover no-repeat;}
   #mainVisual .swiper-slide .gtb {background: none; border:1px solid #fff;}
   #mainVisual .swiper-slide .gtb:hover {background: var(--color_Dp); border:1px solid var(--color_Dp);}
   #mainVisual .text-box {position: absolute; top: 20%; left: 5%; color:var(--color_white);}
@@ -547,13 +547,13 @@ body {
   /* pop */
   #popuparea .swiper .swiper-wrapper .swiper-slide{height: 18.5vh;}
   #popuparea .swiper .swiper-wrapper .swiper-slide.pop01 {
-    background: url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type2_img01_1.png') right 3% bottom / cover no-repeat;
+    background: url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/type2_img01_1.png') right 3% bottom / cover no-repeat;
   }
   #popuparea .swiper .swiper-wrapper .swiper-slide.pop02 {
-      background: url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type2_img02_1.png') right 3% bottom / cover no-repeat;
+      background: url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/type2_img02_1.png') right 3% bottom / cover no-repeat;
   }
   #popuparea .swiper .swiper-wrapper .swiper-slide.pop03 {
-    background: url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type2_img03_1.png') left 20% bottom / cover no-repeat;
+    background: url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/type2_img03_1.png') left 20% bottom / cover no-repeat;
 }
 }
 @media only screen and (max-width: 400px){

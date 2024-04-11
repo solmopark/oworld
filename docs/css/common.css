@@ -69,7 +69,7 @@ button {font-family:'NanumSquareRound'; font-size:18px; line-height:1.4em;}
 #header {width:100%; height:70px; font-size:0; position:fixed; top:0; left:0; z-index:999; background:rgba(255,255,255,0); -webkit-transition:all 0.5s ease-out; -moz-transition:all 0.5s ease-out; -o-transition:all 0.5s ease-out; transition:all 0.5s ease-out;}
 #header .headerWrap {width:1660px; height:100%; margin:0 auto; display:flex; flex-flow:row; justify-content:space-between; align-items:center;}
 #header .logo a {width:auto; height:40px; display:flex; flex-flow:row; align-items:flex-end;}
-#header .logo a span {width:86px; height:90%; display:inline-block; position:relative;}
+#header .logo a span {width:90px; height:100%; display:inline-block; position:relative;}
 #header .logo a span img {-webkit-transition:all 0.3s ease-out; -moz-transition:all 0.3s ease-out; -o-transition:all 0.3s ease-out; transition:all 0.3s ease-out;}
 #header .logo a span img.normal {position:absolute; z-index:0;}
 /* #header .logo a span img.scroll {position:absolute; z-index:1; opacity:0;} */
@@ -229,7 +229,7 @@ button {font-family:'NanumSquareRound'; font-size:18px; line-height:1.4em;}
 #footerArea::after{
 	position:absolute;
 	content: '';
-	background: url('https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/main_bottomBG.png') center bottom /cover no-repeat;
+	background: url('https://cdn.jsdelivr.net/gh/solmopark/oworld/docs/img/main_bottomBG.png') center bottom /cover no-repeat;
 	width:100%;
 	height: 618px;
 	bottom: 0;
@@ -305,6 +305,23 @@ button {font-family:'NanumSquareRound'; font-size:18px; line-height:1.4em;}
 	margin-left:10px;
 }
 
+/*------- top-button-start -------*/
+#back-top {
+    position: fixed; 
+    display:none;
+    mix-blend-mode: difference;
+    bottom: 7%; 
+    right:10px; 
+    width:auto;
+    z-index:51;
+    text-align:center;
+    cursor: pointer;
+}
+a#back-top:active {background:none;}
+a#back-top {
+    display: block; 
+    text-decoration: none;
+}
 
 
 /*모바일*/
@@ -391,6 +408,10 @@ button {font-family:'NanumSquareRound'; font-size:18px; line-height:1.4em;}
 }
 @media screen and (max-width:900px){
 	#footerArea .footBox .ft_bot {flex-flow: column-reverse;}
+
+	/* back-top */
+	#back-top{mix-blend-mode: inherit; bottom: 5%; right: 5px;}
+	#back-top img {width:90%; background: #fff;}
 }
 @media screen and (max-width:768px) {
     #header .logo a label span.vol {display:none;}
@@ -467,6 +488,9 @@ button {font-family:'NanumSquareRound'; font-size:18px; line-height:1.4em;}
 @media only screen and (max-width:400px){	
 	.search.active .input {width: 140px;}
 	.search.active .btn {transform: translateX(105px);}
+
+	#back-top {right: -3px;}
+	#back-top img {width:80%;}
 }
 @media only screen and (max-width:360px) {
     /* header */
