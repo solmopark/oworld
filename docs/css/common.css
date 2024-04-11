@@ -424,7 +424,7 @@ a#back-top {
 
 
 	/* footer */
-	#footerArea {height: 260px;}
+	#footerArea {height: auto;}
 	#footerArea::after{height: 74vh;}
 	#footerArea .footBox .ft_top {padding-bottom:10px;}
 	#footerArea .footBox .ft_mid .tel{ justify-content: center;}

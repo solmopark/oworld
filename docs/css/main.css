@@ -417,7 +417,7 @@ body {
   #newArea .newIndex {margin-top: 8vw;}
 
   /* popup */
-  #popuparea .swiper .swiper-wrapper .swiper-slide{height: 38vh;}
+  #popuparea .swiper .swiper-wrapper .swiper-slide{height: 50vh;}
 }
 @media only screen and (max-width: 1400px){
   /* visual */
