@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>owrold redesign</title>
+    <link rel="icon" sizes="16x16" href="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/title_logo.png">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <script defer type="text/javascript" src="js/style.js"></script>
+    <script defer type="text/javascript" src="js/common.js"></script>
+
+
+</head>
+
+<body>
+
+    <div id="wrap" class="mainPage">
+        <header id="header">
+            <div class="headerWrap">
+                <div class="logo">
+                    <a href="index.php">
+                        <span>
+                            <img class="normal"
+                                src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/main_logoB.png"
+                                alt="Oworld">
+                            <img class="scroll"
+                                src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/main_logoDp.png"
+                                alt="Oworld">
+                        </span>
+                        <!-- <label>
+                                webzine<span class="vol">vol. 43｜</span>
+                                <span class="year">2022</span><span class="month">7</span>
+                            </label> -->
+                        <!-- <label>webzine vol43<span class="year">｜2022</span><span class="month">7</span></label> -->
+                    </a>
+                </div>
+                <!-- menu start -->
+                <div class="gnb">
+                    <div id="menuArea" class="w1366_hide">
+                        <div class="menuBox">
+                            <ul>
+                                <li class="topMenu">
+                                    <a href="#">O! World?</a>
+                                    <ul class="subMenu">
+                                        <li><a href="#"><span>O! World소개</span></a></li>
+                                        <li><a href="#"><span>서비스헌장</span></a></li>
+                                        <li><a href="#"><span>지원서접수</span></a></li>
+                                        <li><a href="#"><span>입찰공고</span></a></li>
+                                        <li><a href="#"><span>O-World 공고</span></a></li>
+                                        <li><a href="#"><span>사이트맵</span></a></li>
+                                        <li><a href="#"><span>개인정보처리방침</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="topMenu">
+                                    <a href="#">이용정보</a>
+                                    <ul class="subMenu">
+                                        <li><a href="#"><span>뉴스&공지</span></a></li>
+                                        <li><a href="#"><span>이용안내</span></a></li>
+                                        <li><a href="#"><span>이용요금</span></a></li>
+                                        <li><a href="#"><span>운휴안내</span></a></li>
+                                        <li><a href="#"><span>교통정보</span></a></li>
+                                        <li><a href="#"><span>부대시설</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="topMenu">
+                                    <a href="#">축제 및 이벤트</a>
+                                    <ul class="subMenu">
+                                        <li><a href="#"><span>O!World 공연안내</span></a></li>
+                                        <li><a href="#"><span>버드랜드 퍼포먼스</span></a></li>
+                                        <li><a href="#"><span>O!World 축제&이벤트</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="topMenu">
+                                    <a href="#">즐길거리</a>
+                                    <ul class="subMenu">
+                                        <li><a href="#"><span>나이트 유니버스</span></a></li>
+                                        <li><a href="#"><span>버드랜드</span></a></li>
+                                        <li><a href="#"><span>조이랜드</span></a></li>
+                                        <li><a href="#"><span>쥬랜드</span></a></li>
+                                        <li><a href="#"><span>플라워랜드</span></a></li>
+                                        <li><a href="#"><span>행복쉼터</span></a></li>
+                                        <li><a href="#"><span>시즌놀이시설</span></a></li>
+                                        <li><a href="#"><span>편의시설</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- menu_width_1366 -->
+                    <div id="menuArea" class="w1366_show">
+                        <div class="menuBtn">
+                            <div class="open" alt="전체메뉴 보기">
+                                <img class="normal"
+                                    src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/menuOpen04.png"
+                                    alt="">
+                                <img class="scroll"
+                                    src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/menuOpen03.png"
+                                    alt="">
+                            </div>
+                            <div class="close" alt="전체메뉴 닫기">
+                                <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/menuClose02.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="menuBox">
+                            <div>
+                                <ul>
+                                    <li class="topMenu">
+                                        <div class="subMenuTitle">O! World?
+                                            <img class="plus"
+                                                src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/menuPlus.png"
+                                                alt="펼쳐보기">
+                                            <img class="minus"
+                                                src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/menuMinus.png"
+                                                alt="닫기">
+                                        </div>
+                                        <ul class="subMenu">
+                                            <li><a href="#">O! World소개</a></li>
+                                            <li><a href="#">서비스헌장</a></li>
+                                            <li><a href="#">지원서접수</a></li>
+                                            <li><a href="#">입찰공고</a></li>
+                                            <li><a href="#">O-World 공고</a></li>
+                                            <li><a href="#">사이트맵</a></li>
+                                            <li><a href="#">개인정보처리방침</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="topMenu">
+                                        <div class="subMenuTitle">이용정보
+                                            <img class="plus"
+                                                src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/menuPlus.png"
+                                                alt="펼쳐보기">
+                                            <img class="minus"
+                                                src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/menuMinus.png"
+                                                alt="닫기">
+                                        </div>
+                                        <ul class="subMenu">
+                                            <li><a href="#">뉴스&공지</a></li>
+                                            <li><a href="#">이용안내</a></li>
+                                            <li><a href="#">이용요금</a></li>
+                                            <li><a href="#">운휴안내</a></li>
+                                            <li><a href="#">교통정보</a></li>
+                                            <li><a href="#">부대시설</a></li>
+                                            <li><a href="#">고객마당</a></li>
+                                            <li><a href="#">가이드맵</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="topMenu">
+                                        <div class="subMenuTitle">축제 및 이벤트
+                                            <img class="plus"
+                                                src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/menuPlus.png"
+                                                alt="펼쳐보기">
+                                            <img class="minus"
+                                                src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/menuMinus.png"
+                                                alt="닫기">
+                                        </div>
+                                        <ul class="subMenu">
+                                            <li><a href="#">O!World 공연안내</a></li>
+                                            <li><a href="#">버드랜드 퍼포먼스</a></li>
+                                            <li><a href="#">O!World 축제&이벤트</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="topMenu">
+                                        <div class="subMenuTitle">즐길거리
+                                            <img class="plus"
+                                                src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/menuPlus.png"
+                                                alt="펼쳐보기">
+                                            <img class="minus"
+                                                src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/menuMinus.png"
+                                                alt="닫기">
+                                        </div>
+                                        <ul class="subMenu">
+                                            <li><a href="#">나이트 유니버스</a></li>
+                                            <li><a href="#">버드랜드</a></li>
+                                            <li><a href="#">조이랜드</a></li>
+                                            <li><a href="#">쥬랜드</a></li>
+                                            <li><a href="#">플라워랜드</a></li>
+                                            <li><a href="#">행복쉼터</a></li>
+                                            <li><a href="#">시즌놀이시설</a></li>
+                                            <li><a href="#">편의시설</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- menu End -->
+
+                <!-- search stert -->
+                <div class="search">
+                    <input class="input" type="text" placeholder="SEARCH">
+                    <button class="btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <!-- search End -->
+            </div>
+        </header>
+    </div>
+
+    <!-- top-visual Start -->
+    <section id="mainSection1">
+        <div id="mainVisual" class="ver4"> <!-- visualPage에 따라 class 변경 -->
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper_flex swiper_flex01">
+                            <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_visual01-1.jpg"
+                                alt="메인 이미지1">
+                            <div class="text-box">
+                                <div class="title">
+                                    <div class="subtitle" data-swiper-parallax="-200">2024</div>
+                                    <div class="maintitle" data-swiper-parallax="-300">Night Universe</div>
+                                    <div class="subtitle01" data-swiper-parallax="-200">나이트 유니버스 불꽃쇼🎆</div>
+                                </div>
+                                <div class="text" href="#" data-swiper-parallax="-100">
+                                    <p><b>운영일</b> | 4월 - 6월(매주 토요일)</p>
+                                    <p><b>시간</b> | 저녁 8시 40분 예정</p>
+                                    <p><b>장소</b> | 오월드 플라워랜드(나이트 유니버스)일원 </p>
+                                </div>
+                                <a class="gtb" href="#">
+                                    <span> MORE VIEW</span><img
+                                        src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/more_btn.png"
+                                        alt="view">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_flex swiper_flex02">
+                            <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_visual02-1.jpg"
+                                alt="메인 이미지2">
+                            <div class="text-box text-box02">
+                                <div class="title">
+                                    <div class="subtitle01" data-swiper-parallax="-200">다양한 캐릭터 에어벌룬이 <br
+                                            class="show_425"> 대전 오월드에 모였다<i>!!</i></div>
+                                    <div class="maintitle" data-swiper-parallax="-300">Colorful Fastival</div>
+                                    <div class="subtitle01" data-swiper-parallax="-200">O!색 컬러풀 페스티벌🎈</div>
+                                </div>
+                                <div class="text" href="#" data-swiper-parallax="-100">
+                                    <p><b>축제기간</b> | 2024.03.23 ~ 2024.06.30</p>
+                                    <p><b>Tip</b> | 꿈돌이·꿈순이 에어벌룬 등 <br><span>포토존에서 이색 인생샷 남기기<i>!</i>📸</span></p>
+                                </div>
+                                <a class="gtb" href="#">
+                                    <span> MORE VIEW</span><img
+                                        src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/more_btn.png"
+                                        alt="view">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_flex swiper_flex03">
+                            <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_visual03-1.jpg"
+                                alt="메인 이미지3">
+                            <div class="text-box text-box03">
+                                <div class="title">
+                                    <div class="subtitle01" data-swiper-parallax="-200">밤의 오월드는 환상적이야<i>!</i></div>
+                                    <div class="maintitle" data-swiper-parallax="-300">Night opening</div>
+                                    <div class="subtitle01" data-swiper-parallax="-200">야간개장🎡🌃</div>
+                                </div>
+                                <div class="text" href="#" data-swiper-parallax="-100">
+                                    <p> <b>기간</b> | 03.23 ~ 10.27 <small> 중 주말 및 일부 공휴일</small><br>
+                                        <span>+ <u>공휴일 운영</u>(5&#8231;6&#8231;9.16~9.18), <u>7월 미운영</u></span>
+
+                                    </p>
+                                    <p><b>운영시간</b> | 17:00 ~ 22:00 <br><span>+ <u>17시</u> 이후 입장시 <u>요금 할인</u>까지</span>
+                                    </p>
+                                </div>
+                                <a class="gtb" href="#">
+                                    <span> MORE VIEW</span><img
+                                        src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/more_btn.png"
+                                        alt="view">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <!-- roll-text Start -->
+        <div id="roll-text" class="ver4">
+            <div class="track">
+                <div class="text -twox">
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon01.png" alt="">
+                        <p class="box-t">이용요금 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon02.png" alt="">
+                        <p class="box-t">멤버쉽 할인 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon03.png" alt="">
+                        <p class="box-t">가이드맵 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon04.png" alt="">
+                        <p class="box-t">운휴안내 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon05.png" alt="">
+                        <p class="box-t">부대시설 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon06.png" alt="">
+                        <p class="box-t">편의시설 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon07.png" alt="">
+                        <p class="box-t">고객마당 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon08.png" alt="">
+                        <p class="box-t">공지사항 </p>
+                    </div>
+                    <!--   페이크   -->
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon01.png" alt="">
+                        <p class="box-t">이용요금 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon02.png" alt="">
+                        <p class="box-t">멤버쉽 할인 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon03.png" alt="">
+                        <p class="box-t">가이드맵 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon04.png" alt="">
+                        <p class="box-t">운휴안내 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon05.png" alt="">
+                        <p class="box-t">부대시설 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon06.png" alt="">
+                        <p class="box-t">편의시설 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon07.png" alt="">
+                        <p class="box-t">고객마당 </p>
+                    </div>
+                    <div class="box">
+                        <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon08.png" alt="">
+                        <p class="box-t">공지사항 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- roll-text End -->
+    </section>
+    <!-- top-visual End -->
+
+    <div id="con_wrap">
+        <div id="content">
+            <div id="wrap" class="">
+                <!-- type1 start -->
+                <section class="type1">
+                    <div class="secTitle">Oworld & Event<i>!</i>
+                        <span>오월드에서 진행중인 이벤트를 소개합니다. </span>
+                    </div>
+                    <div class="secBox ver4">
+                        <a class="thumb" href="#" target="_blank">
+                            <div class="img"><img
+                                    src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type1_img01.jpg"
+                                    alt=""></div>
+                            <div class="txt">
+                                <div class="day">2024.03.29 ~ 2024.04.30</div>
+                                <div class="title">4월 운영 안내 </div>
+                                <div class="text" href="#">놀러와 대전오월드</div>
+                                <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/view_btn.png"
+                                    alt="VIEW" class="more">
+                            </div>
+
+                        </a>
+                        <a class="thumb" href="#" target="_blank">
+                            <div class="img"><img
+                                    src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type1_img02.jpg"
+                                    alt=""></div>
+                            <div class="txt">
+                                <div class="day">2024.03.29 ~ 2024.04.30</div>
+                                <div class="title">대전오월드 벚꽃 스팟</div>
+                                <div class="text" href="#">벚꽃 포토존 여기 어디?</div>
+                                <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/view_btn.png"
+                                    alt="VIEW" class="more">
+                            </div>
+                        </a>
+                        <a class="thumb" href="#" target="_blank">
+                            <div class="img"><img
+                                    src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type1_img03.jpg"
+                                    alt=""></div>
+                            <div class="txt">
+                                <div class="day">2024.04.09 ~ 2024.04.30</div>
+                                <div class="title">4월 공연시간표</div>
+                                <div class="text" href="#">대전오월드 공연시간표</div>
+                                <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/view_btn.png"
+                                    alt="VIEW" class="more">
+                            </div>
+                        </a>
+                        <a class="thumb" href="#" target="_blank">
+                            <div class="img"><img
+                                    src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type1_img04.jpg"
+                                    alt=""></div>
+                            <div class="txt">
+                                <div class="day">2024.03.23 ~ 2024.06.30</div>
+                                <div class="title">O! 색 컬러풀 페스티벌</div>
+                                <div class="text" href="#">다양한 캐릭터 에어벌룬이 <br>
+                                    대전오월드에 모였다!</div>
+                                <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/view_btn.png"
+                                    alt="VIEW" class="more">
+                            </div>
+                        </a>
+                        <img class="deco" src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/title_logo.png"
+                            alt="">
+                    </div>
+                </section>
+                <!-- type1 End -->
+            </div>
+
+            <!-- type2 Start -->
+            <section class="type2" id="popuparea">
+                <div class="swiper popSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide pop01"></div>
+                        <div class="swiper-slide pop02">
+                        </div>
+                        <div class="swiper-slide pop03">
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <!-- type2 End -->
+
+            <!-- type3 start -->
+            <div id="wrap" class="">                
+                <section class="type3">
+                    <div class="secTitle">OWORLD Youtube</div>
+                    <div class="secBox ver4">
+                        <a class="thumb" href="https://youtu.be/hIbLg9hrvVM?si=iqkg8zAR5ckQW9zv" target="_blank">
+                            <div class="img"><img
+                                    src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type3_img01.jpg"
+                                    alt="O!색 컬러풀 페스티벌"></div>
+                            <div class="txt">
+                                <div class="title">2024년 대전오월드 O!색 컬러풀 페스티벌🎇</div>
+                                <div class="text" href="#">2024년 봄시즌 축제 <br>
+                                    O!색 컬러풀 페스티벌🎇 3/23부터 6/30까지 진행‍
+                                </div>
+                            </div>
+                        </a>
+                        <a class="thumb" href="https://youtu.be/zvM7tBumkSo?si=gPqNg__Iu8eFSRhr" target="_blank">
+                            <div class="img"><img
+                                    src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/type3_img03.jpg"
+                                    alt="1인칭 동물원"></div>
+                            <div class="txt">
+                                <div class="title">[대전오월드] 1인칭 동물원</div>
+                                <div class="text" href="#">
+                                    상쾌한 시원함을 선물해 줄 오월드의 귀염둥이들,<br>
+                                    물개&물범 친구를 소개합니다! 🦭
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </div>            
+            <!-- type3 End -->
+
+            <!-- type4 Start -->
+            <section class="type4" id="newArea">
+
+                <div class="cate">
+                    <h1 class="secTitle">
+                        News & Notice
+                        <span>대전 오월드 뉴스&공지사항 등 <br class="show_br"> 안내를 알려드립니다.</span>
+                    </h1>
+                    <div class="newIndex">
+                        <h2 class="active">전체</h2>
+                        <h2>뉴스/공지</h2>
+                        <h2>운휴 </h2>
+                        <h2>정보</h2>
+                    </div>
+                </div>
+
+                <div class="view_section">
+                    <div class="swiper-container active">
+                        <div class="swiper-wrapper">
+                            <!-- 전체 -->
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">HOILDAY</div>
+                                    <div class="new_title01">놀이시설(회전목마) 운휴 안내</div>
+                                    <!-- <div class="new_text">놀이시설 회전목마가 시설물 점검으로 인해 운휴</div> -->
+                                    <div class="day">2024.04.06</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">NOTICE</div>
+                                    <div class="new_title01">대전오월드 연간회원 <br>
+                                        개인정보 파기안내</div>
+                                    <!-- <div class="new_title">대전오월드 연간회원 <br>
+                                        개인정보 파기안내</div>
+                                    <div class="new_text">파기대상 대전오월드 연간회원 <br>(2023.12.01 ~ 12.31일 가입자)</div> -->
+                                    <div class="day">2024.04.05</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">NEWS</div>
+                                    <div class="new_title01">2024년 상반기 오월드 <br>
+                                        불꽃쇼 운영안내</div>
+                                    <!-- <div class="new_text">4월 ~ 6월 매주 토요일 불꽃쇼 운영 관련 안내</div> -->
+                                    <div class="day">2024.03.30</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">NEWS</div>
+                                    <div class="new_title01">봄이다! 대전 오월드 <br>특별한 봄 시즌 축제</div>
+                                    <div class="day">2024.03.18</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">HOILDAY</div>
+                                    <div class="new_title01">나이트 유니버스 미운영 안내<br>(3. 14.)</div>
+                                    <!-- <div class="new_text">나이트 유니버스 내부 시설 개선 공사로 인해 2024. 3. 14.(목) 운영 중단</div> -->
+                                    <div class="day">2024.03.13</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">HOILDAY</div>
+                                    <div class="new_title01">늑대사파리 임시 관람중단 안내<br>(3. 11 ~ 15)</div>
+                                    <!-- <div class="new_text">늑대사파리 내 시설 개선공사로 인해 2024. 3. 11.(월) ~ 3. 15.(금) 동안 관람 임시 중단</div> -->
+                                    <div class="day">2024.03.08</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">NEWS</div>
+                                    <div class="new_title01">"낮보다 즐거운 밤의 마법세상"<br>나이트 유니버스</div>
+                                    <!-- <div class="new_text">대전오월드 나이트 유니버스가 오는 3월부터 운영을 시작</div> -->
+                                    <div class="day">2024.02.26</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">NOTICE</div>
+                                    <div class="new_title01">몽키빌리지 신규 오픈 및 관람 안내</div>
+                                    <div class="day">2024.01.27</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">NOTICE</div>
+                                    <div class="new_title01">대전오월드 고객 개인정보 <br>제3자 제공</div>
+                                    <div class="day">2024.01.22</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 공지 -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">NEWS</div>
+                                    <div class="new_title01">2024년 상반기 오월드 <br>
+                                        불꽃쇼 운영안내</div>
+                                    <div class="day">2024.03.30</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">NEWS</div>
+                                    <div class="new_title01">"낮보다 즐거운 밤의 마법세상"<br>나이트 유니버스</div>
+                                    <div class="day">2024.02.26</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">NEWS</div>
+                                    <div class="new_title01">봄이다! 대전 오월드 <br>특별한 봄 시즌 축제</div>
+                                    <div class="day">2024.03.18</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 운휴 -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">HOILDAY</div>
+                                    <div class="new_title01">놀이시설(회전목마) 운휴 안내</div>
+                                    <div class="day">2024.04.06</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">HOILDAY</div>
+                                    <div class="new_title01">나이트 유니버스 미운영 안내(3. 14.)</div>
+                                    <div class="day">2024.03.13</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">HOILDAY</div>
+                                    <div class="new_title01">늑대사파리 임시 관람중단 안내(3. 11 ~ 15)</div>
+                                    <div class="day">2024.03.08</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 정보 -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">NOTICE</div>
+                                    <div class="new_title01">대전오월드 연간회원 <br>
+                                        개인정보 파기안내</div>
+                                    <div class="day">2024.04.05</div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">NOTICE</div>
+                                    <div class="new_title01">몽키빌리지 신규 오픈 및 관람 안내</div>
+                                    <div class="day">2024.01.27</div>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <a class="text" href="#">
+                                    <div class="newTag">NOTICE</div>
+                                    <div class="new_title01">대전오월드 고객 개인정보 제3자 제공</div>
+                                    <div class="day">2024.01.22</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- type4 End -->
+
+            <!-- Etc Start -->
+            <div id="wrap">
+                <section>
+                    <div class="oworldEtc">
+                        <a class="flex" href="#">
+                            <div class="etcIcon"><img
+                                    src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon09.png"
+                                    alt="문의하기"></div>
+                            <div class="textbox">
+                                <h2>문의하기</h2>
+                                <div>오!월드 관하여 <br class="show_425">궁금한 점을 남겨주세요.</div>
+                            </div>
+                            <div class="arrow"><img
+                                    src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworldarrow.png"
+                                    alt="보기"></div>
+                        </a>
+                        <a class="flex" href="#">
+                            <div class="etcIcon"><img
+                                    src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworld_icon10.png"
+                                    alt="예매하기"></div>
+                            <div class="textbox">
+                                <h2>예매하기</h2>
+                                <div>오월드 티켓을 누구보다 빠르게 <br>남들과는 다르게 예매하기.</div>
+                            </div>
+                            <div class="arrow"><img
+                                    src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/oworldarrow.png"
+                                    alt="보기"></div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="footerArea">
+        <footer class="footBox">
+            <div class="ft_top">
+                <a href="" class="ft_logo">
+                    <img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/main_logoB.png" alt="오!월드로고">
+                </a>
+
+                <ul class="ft_sns">
+                   <li><a href=""><img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/facebook.png" alt="페이스북"></a></li>
+                   <li><a href=""><img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/instagram.png" alt="인스타그램"></a></li>
+                   <li><a href=""><img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/youtube.png" alt="유튜브"></a></li>
+                   <li><a href=""><img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/naver_blog.png" alt="네이버블로그"></a></li>
+                   <li><a href=""><img src="https://cdn.jsdelivr.net/gh/solmopark/Oworld_re/docs/img/kakao_ch.png" alt="카카오톡채널"></a></li> 
+                </ul>
+            </div>
+            <div class="ft_mid">
+                <div class="add">
+                    <b>주소</b> 35073 대전광역시 중구 사정공원로 70 (사정동)
+                </div>
+
+                <ul class="tel">
+                    <li class="deco"><b>사업자등록번호</b> 305-82-12294</li>
+                    <li class="deco"><b>TEL</b> 042-580-4820</li>
+                    <li><b>FAX</b> 042-580-4711</li>
+                </ul>
+            </div>
+
+            <div class="ft_bot">
+                <div>© 2024 Daejeon O-WORLD. All right reserved.</div>
+
+                <ul class="ft_menu">
+                    <li><a href="#"><b>개인정보처리방침</b></a></li>
+                    <li><a href="#">영상정보처리기기운영방침</a></li>
+                    <li><a href="#">오월드소개</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
